@@ -6,9 +6,9 @@ This repository contains beautiful use cases, visualisation, code snippets, scre
 
 Here are some examples of what visualising zarr-data looks like. 👀
 
-![image1](../assets/images/zarr_data_1.jpg)
+![image1](/assets/images/zarr_data_1.jpg)
 
-![image2](../assets/images/zarr_data_2.jpg)
+![image2](/assets/images/zarr_data_2.jpg)
 
 The idea of having this repository originated during the [Outreachy 2022](https://www.outreachy.org/) Contribution Phase. 💡
 
