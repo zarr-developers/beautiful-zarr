@@ -20,7 +20,7 @@ The idea of having this repository originated during the [Outreachy 2022](https:
     
 - Browse the vast internet 🌏 (WWW) and find how the community uses Zarr for their work. Try to capture their work in screenshots, code snippets (along with visualisations), use cases, and mentions on Twitter/social media (#zarr or similar). Add your result in a .md file in the folder created above. Ex.
     
-    `_data/MSanKeys963/zarr-usecases.md`
+    `_data/MSanKeys963/README.md`
     
 - Submit a [GitHub Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
     - The maintainers for this repo will review your PR and then merge it.
