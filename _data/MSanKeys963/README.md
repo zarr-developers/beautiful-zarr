@@ -1,4 +1,4 @@
-# [MSanKeys](https://github.com/MSanKeys963/)'s Zarr Use Cases
+# [MSanKeys](https://github.com/MSanKeys963/)'s Zarr Collection
 
 ## Tweets
 
