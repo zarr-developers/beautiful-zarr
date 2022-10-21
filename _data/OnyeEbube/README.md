@@ -45,3 +45,5 @@ np.savetxt('array_L.csv', array_L, delimiter=",")
 ValueError: Expected 1D or 2D array, got 3D array instead
 ~~~
 <p>A link to the full blog <a href="https://towardsdatascience.com/why-you-should-save-numpy-arrays-with-zarr-dabff4ae6c0c">is here</a></p>
+<h2>Zarr Visualizations</h2>
+![download](https://user-images.githubusercontent.com/101593852/197181206-1dc2dd78-fe4f-4f51-8c1d-db3107f83a3a.png)
