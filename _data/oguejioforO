@@ -1,0 +1,39 @@
+# [oguejioforO](https://github.com/oguejioforO/)'s Zarr Collection
+## Tweet Mentions
+-https://twitter.com/opencholmes/status/1583130100756643845/photo/1
+-https://twitter.com/notjustmoore/status/1256232842755014656
+-https://twitter.com/LLC4320Bot/status/1274862822778982402
+ 
+## Code Snippets
+#### SILAM Air Quality - https://registry.opendata.aws/silam/
+Code 👇🏻
+```
+from datetime import datetime
+date = datetime.today().strftime('%Y%m%d')
+print("date", date)
+z = zarr.open_array(
+    f"s3://fmi-opendata-silam-surface-zarr/global/{date}/silam_glob_v5_7_1_{date}_SO2_d0.zarr/SO2/",
+    storage_options={"anon": True}
+)
+print(z.shape)
+plt.imshow(np.log(z[20]), origin="lower", cmap="Spectral")
+```
+
+![SCREENSHOTS](https://user-images.githubusercontent.com/115434947/197180018-9033c3c1-6e06-4c29-8b59-a3ed3bd76922.png)
+
+
+
+
+
+
+## OTHER SCREENSHOTS SHOWING HOW COMMUNITIY WORKED WITH ZARR
+The image below shows a work  carried out using Zarr: Ocean Simulation -[https://github.com/rabernat/poseidon-bot(https://t.co/hh3OW9iy2S)
+
+![image1](https://user-images.githubusercontent.com/115434947/197210745-f7bb4e06-ebb8-4371-9d2a-80463af0411c.png)
+
+
+The second image is also a work that was performed using Zarr:  image of code19 published to IDRNews converted to zarr_dev and
+stored in Embassy S3 and viewed with an openmicroscopy.
+
+
+![image 6](https://user-images.githubusercontent.com/115434947/197211662-9c879c27-0526-415c-ac9c-12809ece8c28.png)
