@@ -8,7 +8,7 @@ Zarr Data visualization
 ![Opera Snapshot_2022-10-21_101658_twitter com](https://user-images.githubusercontent.com/94924532/197161914-c01c3048-c015-4692-a1c5-a6c1c5f3064f.png)
 
 Code snippets
-
+Zarr API For Accessing HRRR Data (University of Utah) - https://mesowest.utah.edu/html/hrrr/zarr_documentation/html/zarr_api_multiple_hrrr_variables.html
 
 %%time
 import s3fs
