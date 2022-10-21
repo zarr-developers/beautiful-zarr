@@ -42,4 +42,4 @@ ax.coastlines()
 
 plt.show()
 plt.close()
-image
+
