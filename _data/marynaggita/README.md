@@ -217,4 +217,4 @@ cont = setup_map(ax, pmap, subset_GRACE, x, y, lwe, time_start, cmap_name, cmap_
 fig.colorbar(cont, ticks=cmap_levels, orientation='horizontal', label='Land Water Equivalent Thickness (cm)')
 ```
 
-![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data.PNG)
+![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG)
