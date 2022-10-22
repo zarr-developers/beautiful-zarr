@@ -15,7 +15,7 @@
 Use Case: Study Amazon Estuaries with Data from the EOSDIS Cloud(https://github.com/podaac/tutorials/blob/master/notebooks/SWOT-EA-2021/Estuary_explore_inCloud_zarr.ipynb)
 
 
-![image2](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data.PNG)
+![image2](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG)
 
 
 ## Code Snippets
@@ -217,4 +217,4 @@ cont = setup_map(ax, pmap, subset_GRACE, x, y, lwe, time_start, cmap_name, cmap_
 fig.colorbar(cont, ticks=cmap_levels, orientation='horizontal', label='Land Water Equivalent Thickness (cm)')
 ```
 
-![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG)
+![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data.PNG)
