@@ -1,4 +1,4 @@
-Weskeyz's Zarr collection
+@weskeyz Zarr collection
 
 Tweet mentions:
 https://twitter.com/pleiszenburg/status/1197567468845309952?s=20&t=pVprlZ-mbMk0cOkxOplfLw
@@ -10,7 +10,7 @@ Zarr Data visualization
 Code snippets
 Zarr API For Accessing HRRR Data (University of Utah) - https://mesowest.utah.edu/html/hrrr/zarr_documentation/html/zarr_api_multiple_hrrr_variables.html
 
-%%time
+<%%time
 import s3fs
 import zarr
 
@@ -41,5 +41,7 @@ ax.contourf(chunk_index.longitude, chunk_index.latitude, thousand_mb_tmp)
 ax.coastlines()
 
 plt.show()
-plt.close()
+plt.close()>
+
+![Opera Snapshot_2022-10-22_061748_github com](https://user-images.githubusercontent.com/94924532/197321964-0e8818a4-6a93-4283-bd64-5b24f1e9c4b3.png)
 
