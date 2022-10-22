@@ -46,4 +46,10 @@ ValueError: Expected 1D or 2D array, got 3D array instead
 ~~~
 <p>A link to the full blog <a href="https://towardsdatascience.com/why-you-should-save-numpy-arrays-with-zarr-dabff4ae6c0c">is here</a></p>
 <h2>Zarr Visualizations</h2>
-![download](https://user-images.githubusercontent.com/101593852/197181206-1dc2dd78-fe4f-4f51-8c1d-db3107f83a3a.png)
+
+<h2>Twitter Mentions</h2>
+<p>Mini-bloggers on twitter are sharing the story of Zarr to their audiences<br>
+  -This tweet thread by <b>Terence Tuhinanshu</b> is an example of Zarr's chunking capacity with large volumes of multiple dimensions stored at once - https://twitter.com/rajadain/status/1574097638747537408?s=20&t=WpcGsL7fcTZ3eWtlRJl_gw<br>
+  -<b>LatxLong</b> endorses Zarr 2.0 specifications as community standard - https://twitter.com/latlong_blog/status/1543726888908009472?s=20&t=WpcGsL7fcTZ3eWtlRJl_gw<br>
+  -Openmicroscopy defining a joint specification with OMENGFF and anndata which can be stored in a single Zarr fileset - https://twitter.com/openmicroscopy/status/1582413612433346571?s=20&t=WpcGsL7fcTZ3eWtlRJl_gw<br>
+</p>
