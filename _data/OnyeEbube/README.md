@@ -1,4 +1,4 @@
-<h1>Onyeka's Zarr Collection</h1>
+<h1>OnyeEbube's Zarr Collection</h1>
 <h2>Zarr Use Cases</h2>
 <p> - There was a study to provide guidance on how to transfer existing NetCDF data from a hierarchical storage system into Zarr to an object storage system by the German Climate Computing Center (DKRZ) in the year 2021.<a href="https://presentations.copernicus.org/EGU21/EGU21-2442_presentation.pdf"> This is a link to the study </a></p>
 <p> - In April 2022, a research was made by using cloud computing to analyze model output archived in Zarr format. This research was possible by harnessing the flexibility of zarr because Zarr is designed to be accessed with open-source software either using cloud or local computing resources.<a href="https://journals.ametsoc.org/view/journals/atot/39/4/JTECH-D-21-0106.1.xml"> A link to the study can be found here</a></p>
