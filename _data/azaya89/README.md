@@ -1,6 +1,7 @@
 # [Azaya](https://github.com/Azaya89)'s Zarr collection.
 
-## Twitter Mentions
+## Twitter Mentions:
+
 
 - https://twitter.com/rajadain/status/1574097645806682121
 
@@ -10,7 +11,8 @@
 
 -----
 
-## Youtube mentions
+## Youtube mentions:
+
 
 - https://www.youtube.com/watch?v=RLHM5MQ5kAs
 
@@ -21,7 +23,8 @@
 ----
 
 
-## Code Snippets and visualisation.
+## Code Snippets and visualisation:
+
 
 - [Interactive design of GPU-accelerated Image Data Flow Graphs and cross-platform deployment using multi-lingual code generation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/32_tiled_image_processing/tiled_image_file_formats_zarr.html)
 
