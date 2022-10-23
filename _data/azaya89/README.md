@@ -54,9 +54,9 @@
         zarr_result = da.from_zarr(zarr_filename)
         zarr_result
 
-    ![Zarr array](beautiful-zarr\_data\azaya89\zarr_array.png)
+    ![Zarr array](zarr_array.jpg)
 
         result = zarr_result.compute()
         cle.imshow(result)
 
-    ![zarr graph](beautiful-zarr\_data\azaya89\zarr_graph.png)
+    ![zarr graph](zarr_graph.jpg)
