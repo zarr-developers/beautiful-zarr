@@ -46,7 +46,9 @@ ValueError: Expected 1D or 2D array, got 3D array instead
 ~~~
 <p>A link to the full blog <a href="https://towardsdatascience.com/why-you-should-save-numpy-arrays-with-zarr-dabff4ae6c0c">is here</a></p>
 <h2>Zarr Visualizations</h2>
-See the image
+
+![image](https://user-images.githubusercontent.com/101593852/197403790-96adf693-0530-4430-bb1d-26374c6d2b3d.png)
+
 <h2>Twitter Mentions</h2>
 <p>Mini-bloggers on twitter are sharing the story of Zarr to their audiences<br>
   -This tweet thread by <b>Terence Tuhinanshu</b> is an example of Zarr's chunking capacity with large volumes of multiple dimensions stored at once - https://twitter.com/rajadain/status/1574097638747537408?s=20&t=WpcGsL7fcTZ3eWtlRJl_gw<br>
