@@ -14,6 +14,8 @@
 
 [pleiszenburg.de](https://youtu.be/RLHM5MQ5kAs) showing Earthquake Zarr Data
 
+GitHub repo: https://github.com/pleiszenburg/earthquakes_youtube01
+
 ![image1](/_data/INTeniola/screenshots/EarthQuake.PNG)
 
 [dClimate](https://dclimate.medium.com/introducing-zarrchitecture-on-dclimate-c12c0ad7e744) showing how Zarr makes it possible to work with large datasets that do not comfortably fit into memory
