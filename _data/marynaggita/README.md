@@ -10,8 +10,6 @@
 
 ## Zarr Data Visualisation
 
-![image1](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data3.png)
-
 Use Case: Study Amazon Estuaries with Data from the EOSDIS Cloud(https://github.com/podaac/tutorials/blob/master/notebooks/SWOT-EA-2021/Estuary_explore_inCloud_zarr.ipynb)
 
 
@@ -19,23 +17,6 @@ Use Case: Study Amazon Estuaries with Data from the EOSDIS Cloud(https://github.
 
 
 ## Code Snippets
-
-
-NASA Earthdata Login Setup
-
-An Earthdata Login account is required to access data, as well as discover restricted data, from the NASA Earthdata system. Please visit https://urs.earthdata.nasa.gov to register and manage your Earthdata Login account. This account is free to create and only takes a moment to set up.
-
-The setup_earthdata_login_auth function will allow Python scripts to log into any Earthdata Login application programmatically. To avoid being prompted for credentials every time you run and also allow clients such as curl to log in, you can add the following to a .netrc (_netrc on Windows) file in your home directory:
-
-machine urs.earthdata.nasa.gov
-    login <your username>
-    password <your password>
-
-Make sure that this file is only readable by the current user or you will receive an error stating "netrc access too permissive."
-
-$ chmod 0600 ~/.netrc
-
-You will be prompted for your username and password if you dont have a netrc file. Note: these imports are all in the Python 3.6+ standard library.
 
 
 Code 👇🏻
