@@ -22,7 +22,7 @@
 
 [HRRR as Zarr on AWS #2 ](https://github.com/blaylockbk/Herbie/issues/2)
 
-![image1](\_data\Anelawrence\screenshots\image2.png)
+![image1](/_data/Anelawrence/screenshots/image2.png)
 
 ## Code Snippets
 
@@ -78,4 +78,5 @@ imshow(test_result, colorbar=True)
 
 ```
 
-![image2](\_data\Anelawrence\screenshots\image1.png)
+
+![image2](/_data/Anelawrence/screenshots/image1.png)
