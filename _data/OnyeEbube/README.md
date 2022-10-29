@@ -51,7 +51,7 @@ A link to the full blog [is here](https://towardsdatascience.com/why-you-should-
 
 ![image](https://user-images.githubusercontent.com/101593852/197403790-96adf693-0530-4430-bb1d-26374c6d2b3d.png)
 
-The data represented above is the result of the code snippet [here](https://github.com/OnyeEbube/beautiful-zarr/main/_data/OnyeEbube/README.md#code-snippets), referenced from https://mesowest.utah.edu/html/hrrr/zarr_documentation/html/zarr_HowToDownload.html
+The data represented above is the result of the code snippet [here](https://github.com/OnyeEbube/beautiful-zarr/main/blob/_data/OnyeEbube/README.md#code-snippets), referenced from https://mesowest.utah.edu/html/hrrr/zarr_documentation/html/zarr_HowToDownload.html
 
 ## Twitter Mentions
 Mini-bloggers on twitter are sharing the story of Zarr to their audiences<br>
