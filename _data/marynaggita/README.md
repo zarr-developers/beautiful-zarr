@@ -11,12 +11,12 @@
 ## Zarr Data Visualisation
 - Boundaries of active fires (red outlines) estimated using VIIRS 375-m thermal anomalies, and smoke from wildfires in the Pacific Northwest on 9 Sep 2020 (https://worldview.earthdata.nasa.gov/)
 
-<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data4.jpg" width="100" height="100">
+<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data4.jpg" width="400" height="400">
 
 
 - Use Case: Study Amazon Estuaries with Data from the EOSDIS Cloud(https://github.com/podaac/tutorials/blob/master/notebooks/SWOT-EA-2021/Estuary_explore_inCloud_zarr.ipynb)
 
-<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG" width="100" height="100">
+<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG" width="400" height="400">
 
 
 ## Code Snippets
