@@ -20,25 +20,25 @@
 
 #### 30GB [microscopic image](https://twitter.com/notjustmoore/status/1256232842755014656) of covid19 newly published and converted to zarr stored in Embassy S3 and viewed with an [openmicroscopy plugin](https://www.openmicroscopy.org/bio-formats/) :
 
-![image1](/_data/Mubarraqqq/images/Microscopy1.jpg)
+![image1](/_data/Mubarraqqq/screenshots/Microscopy1.jpg)
 
-![image2](/_data/Mubarraqqq/images/Microscopy2.jpg)
+![image2](/_data/Mubarraqqq/screenshots/Microscopy2.jpg)
 
 
 #### Timing streamflow queries using Zarr :
 
-![image3](/_data/Mubarraqqq/images/TimingZarr.png)
+![image3](/_data/Mubarraqqq/screenshots/TimingZarr.png)
 
 
 #### Comparing Zarr and Parquet for streamflow queries :
 
-![image4](/_data/Mubarraqqq/images/ComparingPandZ.png)
+![image4](/_data/Mubarraqqq/screenshots/ComparingPandZ.png)
 
 ## Code Snippets
 
 - Using [Vizarr](https://hms-dbmi.github.io/vizarr), a minimal purely client-side program to view Zarr-based images on Jupyter notebook.
 
-![image5](/_data/Mubarraqqq/images/vizarr.png)
+![image5](/_data/Mubarraqqq/screenshots/vizarr.png)
 
 
 - Storing images in chunks using Zarr
@@ -90,6 +90,6 @@ result = zarr_result.compute()
 
 cle.imshow(result)
 ```
-![image6](/_data/Mubarraqqq/images/bioimaging.png)
+![image6](/_data/Mubarraqqq/screenshots/bioimaging.png)
 
 
