@@ -6,22 +6,45 @@
 - https://twitter.com/_jhamman/status/1579882167303168004
 - https://twitter.com/ErikvanSebille/status/1578030942144188417
 
-
+## Zarr Use Cases
 
 ## Zarr Data Visualisation
 - Boundaries of active fires (red outlines) estimated using VIIRS 375-m thermal anomalies, and smoke from wildfires in the Pacific Northwest on 9 Sep 2020 (https://worldview.earthdata.nasa.gov/)
-![image1](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data4.jpg)
+
+<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data4.jpg" width="100" height="100">
 
 
 - Use Case: Study Amazon Estuaries with Data from the EOSDIS Cloud(https://github.com/podaac/tutorials/blob/master/notebooks/SWOT-EA-2021/Estuary_explore_inCloud_zarr.ipynb)
 
-![image2](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG)
+<img src="https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data1.PNG" width="100" height="100">
 
 
 ## Code Snippets
 
 
+
 Code 👇🏻
+
+```
+import s3fs
+import xarray as xr
+
+fs = s3fs.S3FileSystem(anon=True)
+mapper = fs.get_mapper("s3://cmip6-pds/CMIP6/CMIP/AS-RCEC/TaiESM1/1pctCO2/r1i1p1f1/Amon/hfls/gn/v20200225/")
+ds = xr.open_zarr(mapper, consolidated=True, decode_times=False)
+print(list(ds.keys()))
+z = ds["hfls"]
+print(z.shape)
+plt.imshow(z[200], origin="lower", cmap="hot")
+```
+![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data6.PNG)
+
+```
+plt.imshow(z[10])
+```
+![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data7.PNG)
+
+
 
 ```
 import time
