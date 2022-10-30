@@ -3,7 +3,6 @@
 
 ## Zarr Use Case
 - Demonstration of how we may use Zarr to support streaming data from simulation models to analysis environment - [Click here](https://medium.com/pangeo/streaming-zarr-ccf0d518b1c0)
-- Using Zarr files to store and study 4D wind flow BLOCKS - [Click here](https://vortexfdc.com/zarr-the-new-format-to-store-and-study-4d-wind-flow-blocks/)
 - Preparing versions of NWM Reanalysis dataset in Zarr format - [Click here](https://github.com/azavea/noaa-hydro-data/blob/master/src/esip-2022-presentation/save_zarr_data.ipynb)
 - Using Zarr to access cloud storage just like your local file system - [Click here](https://measurespace.medium.com/use-zarr-to-access-clound-storage-just-like-your-local-file-system-d67607cb128b)
 
