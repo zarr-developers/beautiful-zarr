@@ -49,7 +49,7 @@ plt.imshow(z[200], origin="lower", cmap="hot")
 ```
 plt.imshow(z[10])
 ```
-![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data7.PNG)
+![image3](https://github.com/marynaggita/beautiful-zarr/blob/marynaggita/_data/marynaggita/Screenshots/data7.png)
 
 
 
