@@ -17,13 +17,13 @@
 
 ## Zarr use cases
 
-## Continuously extending Zarr datasets:https://medium.com/pangeo/continuously-extending-zarr-datasets-c54fbad3967d
+Continuously extending Zarr datasets: https://medium.com/pangeo/continuously-extending-zarr-datasets-c54fbad3967d
 
-
-## code snippets
+## Code snippets
 
 Code 👇🏻
 
+from: https://medium.com/pangeo/continuously-extending-zarr-datasets-c54fbad3967d
 
 ```python
 dt = datetime(2000, 3, 1, 12)
