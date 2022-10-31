@@ -26,7 +26,7 @@
 ## Code Snippets and visualisation:
 
 
-- [Interactive design of GPU-accelerated Image Data Flow Graphs and cross-platform deployment using multi-lingual code generation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/32_tiled_image_processing/tiled_image_file_formats_zarr.html)
+- [Tiled image file formats: zarr](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/32_tiled_image_processing/tiled_image_file_formats_zarr.html)
 
         import zarr
         import dask.array as da
