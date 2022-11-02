@@ -60,3 +60,14 @@
         cle.imshow(result)
 
     ![zarr graph](zarr_graph.jpg)
+
+- [Forest risks](https://decks.carbonplan.org/pangeo-showcase/10-27-21)
+
+        import xarray as xr
+        import fsspec
+
+        store = fsspec.get_mapper('https://carbonplan.blob.core.windows.net/carbonplan-forests/risks/results/web/fire.zarr')
+
+        ds = xr.open_zarr(store, consolidated=True)
+
+    ![zarr map](zarr_map.jpg)
