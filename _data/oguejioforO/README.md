@@ -19,6 +19,12 @@
 
 Continuously extending Zarr datasets: https://medium.com/pangeo/continuously-extending-zarr-datasets-c54fbad3967d
 
+Cloud-Performant NetCDF4/HDF5 with Zarr, Fsspec, and Intake: https://medium.com/pangeo/cloud-performant-netcdf4-hdf5-with-zarr-fsspec-and-intake-3d3a3e7cb935
+
+
+Parcels v2.4.0: a Lagrangian Ocean Analysis tool for the petascale age:https://github.com/OceanParcels/parcels/releases/tag/v2.4.0
+
+
 ## Code snippets
 
 Code 👇🏻
