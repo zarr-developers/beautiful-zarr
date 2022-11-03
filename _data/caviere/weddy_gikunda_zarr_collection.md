@@ -19,7 +19,7 @@
 [Here's an interactive visualisatin of 728 GB of ERA5 temperature data curated
 by Pangeo stored in Zarr using
 Neuroglancer](http://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22d0%22:%5B1%2C%22%22%5D%2C%22d1%22:%5B1%2C%22%22%5D%2C%22d2%22:%5B1%2C%22%22%5D%7D%2C%22position%22:%5B175320.5%2C360.5%2C720.5%5D%2C%22crossSectionOrientation%22:%5B-0.5%2C-0.5%2C-0.5%2C0.5%5D%2C%22crossSectionScale%22:1%2C%22projectionScale%22:524288%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%7B%22url%22:%22zarr://gs://pangeo-era5/reanalysis/spatial-analysis/t2m%22%2C%22subsources%22:%7B%22default%22:true%2C%22bounds%22:true%7D%2C%22enableDefaultSubsources%22:false%7D%2C%22tab%22:%22source%22%2C%22shader%22:%22#uicontrol%20float%20minValue%20slider%28min=200.0%2C%20max=350.0%2C%20default=200.0%29%5Cn#uicontrol%20float%20maxValue%20slider%28min=200.0%2C%20max=350.0%2C%20default=320.0%29%5Cn%5Cnvec3%20colormapTurbo%28float%20x%29%20%7B%5Cn%20%20vec3%20result%3B%5Cn%20%20x%20=%20clamp%28x%2C%200.0%2C%201.0%29%3B%5Cn%20%20result.r%20=%200.24+x%2A%28-3.45+x%2A%2899.45+x%2A%28-877.16+x%2A%283444.49+x%2A%28-6981.22+x%2A%287681.98+x%2A%28-4381.31+x%2A1017.48%29%29%29%29%29%29%29%3B%5Cn%20%20result.g%20=%200.06+x%2A%283.34+x%2A%28-10.53+x%2A%2879.3+x%2A%28-311.43+x%2A%28637.65+x%2A%28-752.42+x%2A%28482.1+x%2A-128.07%29%29%29%29%29%29%29%3B%5Cn%20%20result.b%20=%200.21+x%2A%288.3+x%2A%28-34.61+x%2A%28173.05+x%2A%28-970.18+x%2A%282775.48+x%2A%28-3940.03+x%2A%282719.41+x%2A-731.65%29%29%29%29%29%29%29%3B%5Cn%20%20return%20clamp%28result%2C%200.0%2C%201.0%29%3B%5Cn%7D%5Cn%5Cnvoid%20main%28%29%20%7B%5Cn%20%20float%20scale_factor%20=%200.0016946343655403098%3B%5Cn%20%20float%20add_offset%20=%20265.9707255587938%3B%5Cn%20%20float%20x%20=%20scale_factor%20%2A%20float%28toRaw%28getDataValue%28%29%29%29%20+%20add_offset%3B%5Cn%20%20float%20v%20=%20%28x%20-%20minValue%29%20/%20%28maxValue%20-%20minValue%29%3B%5Cn%20%20emitRGB%28colormapTurbo%28v%29%29%3B%5Cn%7D%5Cn%22%2C%22shaderControls%22:%7B%22minValue%22:237.5%2C%22maxValue%22:308%7D%2C%22name%22:%22t2m%22%7D%5D%2C%22selectedLayer%22:%7B%22size%22:290%2C%22visible%22:true%2C%22layer%22:%22t2m%22%7D%2C%22layout%22:%224panel%22%7D)
-![screenshot](/images/screenshot_1.png)
+![screenshot](/_data/caviere/images/screenshot_1.png)
 
 ## Code Snippets
 
@@ -37,7 +37,7 @@ ds = xarray.open_zarr(m)
 ds.sel(time=slice("1948-01-01","1955-12-31")).to_zarr("./psl.zarr")
 ```
 
-![screenshot](/images/screenshot_2.png)
+![screenshot](/_data/caviere/images/screenshot_2.png)
 
 ### Carbonplan
 
@@ -86,7 +86,7 @@ const colormap = useColormap('warm')
 />
 ```
 
-![screenshot](/images/screenshot_3.png)
+![screenshot](/_data/caviere/images/screenshot_3.png)
 
 ### Cubed
 
