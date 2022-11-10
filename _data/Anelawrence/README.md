@@ -3,12 +3,47 @@
 ## Tweet Mentions
 
 - https://twitter.com/geosolutions_it/status/1516167576581255168
-
 - https://twitter.com/PyDataDelhi/status/1528047388627456000
-
 - https://twitter.com/opengeospatial/status/1415692393068867595
-
 - https://twitter.com/Ulrike_Boehm/status/1526977063067983872
+- https://twitter.com/Julien_Lau/status/1207352060053741569
+- https://twitter.com/edhartnett/status/1204841202459144197
+- https://twitter.com/NumFOCUS/status/1195039103441616896
+- https://twitter.com/NumFOCUS/status/1195031794623664129
+- https://twitter.com/loicaroyer/status/1194742247079546881
+- https://twitter.com/_jhamman/status/1182352773813362688
+- https://twitter.com/Kimberl64788230/status/1174706061879603201
+- https://twitter.com/TobiasAdeJong/status/1154746138869846016
+- https://twitter.com/eramirem/status/1149039195740131329
+- https://twitter.com/shoyer/status/1145861508460498944
+- https://twitter.com/_jhamman/status/1140704257961652224
+- https://twitter.com/JuliusBusecke/status/1129204320518451200
+- https://twitter.com/_jhamman/status/1072984431814684673
+- https://twitter.com/andreazonca/status/979282994816012288
+- https://twitter.com/ijstokes/status/900809689025437697
+- https://twitter.com/FrancescAlted/status/775765627826950144
+- https://twitter.com/FrancescAlted/status/720993747039830016
+- https://twitter.com/cschrader/status/1574417198495449092
+- https://twitter.com/azavea/status/1574409561024380930
+- https://twitter.com/rajadain/status/1574097650047229954
+- https://twitter.com/PhilippBauman15/status/1572981355180433408
+- https://twitter.com/INCForg/status/1570064709306679298
+- https://twitter.com/INCForg/status/1570060307044929536
+- https://twitter.com/ironArray/status/1567577711006056455
+- https://twitter.com/MiguelDMahecha/status/1561038886062751746
+- https://twitter.com/MiguelDMahecha/status/1560745724010065921
+- https://twitter.com/EuroBioImaging/status/1556973266320982017
+- https://twitter.com/ironArray/status/1523998598375030785
+- https://twitter.com/giswqs/status/1516419028004265998
+- https://twitter.com/GlencoeSoftware/status/1514543991475240963
+- https://twitter.com/clintcabanero/status/1511350429271085062
+- https://twitter.com/GlencoeSoftware/status/1507385839898218500
+- https://twitter.com/alexanderrey42/status/1506242447629762565
+- https://twitter.com/OurRadiantEarth/status/1498354591670411268
+- https://twitter.com/mdsumner/status/1496974485614137344
+- https://twitter.com/OurRadiantEarth/status/1496518731467476992
+- https://twitter.com/GlencoeSoftware/status/1491391571786350594
+- https://twitter.com/jimmyc42/status/1483828050152157185
 
 ## Zarr Use Cases
 
